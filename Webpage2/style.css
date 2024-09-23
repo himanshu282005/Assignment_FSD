@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Top bar styles */
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.top-bar .logo {
+    display: flex;
+
+}
+
+.top-bar .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.top-bar nav a {
+    color: rgb(135, 142, 214);
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.top-bar nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 200px;
+    padding: 20px;
+    background-color: #fd0004;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4500;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+   display:block;
+   filter:drop-shadow(0 0 10px 
+   #fffdef);
+}
+
+/* Main content styles */
+.main-content {
+    margin-left: 0px;
+    padding: -40px;
+    background-image:url("./WhatsApp\ Image\ 2024-08-07\ at\ 14.08.38_b04cc822.jpg");
+
+    width:calc(100vw- 60px);
+    height: calc(100vh - 60px);
+
+    color: white;
+}
+
+.main-content .text-box {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.footer input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+    border: none;
+    border-radius: 3px;
+}
+
+.footer button {
+    padding: 10px 20px;
+    background-color: #ff4500;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    background-color: #e63900;
+}

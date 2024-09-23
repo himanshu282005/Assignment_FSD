@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remove List Item</title>
+</head>
+<body>
+    <ul id="myList">
+        <li>Item 1 <button onclick="removeItem(this)">Remove</button></li>
+        <li>Item 2 <button onclick="removeItem(this)">Remove</button></li>
+    </ul>
+
+    <script>
+        function removeItem(button) {
+            const li = button.parentElement;
+            li.remove();
+        }
+    </script>
+</body>
+</html>

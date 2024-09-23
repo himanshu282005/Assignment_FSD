@@ -1,0 +1,56 @@
+*{
+    /* background-color: rgb(195, 204, 229); */
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color:rgb(101, 101, 222);
+    display: flex;
+    height: 70px;
+    align-items: center;
+    position: relative;
+}
+.login{
+    position: absolute;
+    right: 40px;
+    color: white;
+}
+.container2{
+    /* float: right */
+    position: absolute;
+    right: 10%;
+    margin: 20px;
+}
+.con1{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.detail{
+    margin: 10px;
+}
+
+
+#p{
+    font-size: 12px;
+}
+
+.create{
+    background-color: rgb(65, 182, 65);
+    height: 30px;
+    color: white;
+    margin-top: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.last{
+    margin: 10px;
+    font-size: 12px;
+}
+.space {
+    padding-right:80px; /* Adjust the value as needed */
+  }
+  .space2{
+    padding-right: 80px;
+  }

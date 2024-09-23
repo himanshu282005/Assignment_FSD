@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Retrieve HTML Content</title>
+</head>
+<body>
+    <div id="content">This is <strong>bold</strong> text!</div>
+    <button onclick="showContent()">Show Content</button>
+    <p id="innerHTMLContent"></p>
+    <p id="textContent"></p>
+
+    <script>
+        function showContent() {
+            const content = document.getElementById("content");
+            document.getElementById("innerHTMLContent").textContent = "innerHTML: " + content.innerHTML;
+            document.getElementById("textContent").textContent = "textContent: " + content.textContent;
+        }
+    </script>
+</body>
+</html>

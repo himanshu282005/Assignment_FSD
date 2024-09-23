@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Input Value</title>
+</head>
+<body>
+    <input type="text" id="inputField" placeholder="Type something">
+    <button onclick="displayValue()">Display</button>
+    <p id="displayText"></p>
+
+    <script>
+        function displayValue() {
+            const value = document.getElementById("inputField").value;
+            document.getElementById("displayText").textContent = value;
+        }
+    </script>
+</body>
+</html>
